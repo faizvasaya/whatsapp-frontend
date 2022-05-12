@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Whatsapp-frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A frontend repository to simulate a whatsapp-like realtime communication
 
-## Available Scripts
+[![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-In the project directory, you can run:
+Whatsapp-frontend is a ReactJS based frontend application that leverages the power of real-time communication using Pusher.
 
-### `npm start`
+## Architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fololowing is the architecture of the application.
+[![Architecure Diagram](https://github.com/faizvasaya/whatsapp-backend/blob/master/chat-application-architecture.jpg?raw=true)](https://github.com/faizvasaya/whatsapp-backend/blob/master/chat-application-architecture.jpg?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech
 
-### `npm test`
+whatsapp-frontend uses a number of open source projects to work properly:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS] - A JavaScript library for building user interfaces
+- [Axios] - Promise based HTTP client for the browser and node.js
+- [Pusher] - Powering realtime experiences for mobile and web
 
-### `npm run build`
+## Environment setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Add the `baseURL` in axios.js file
+- Companion backend repository is available here - [whatsapp-backend](https://github.com/faizvasaya/whatsapp-backend)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+whatsapp-fronted requires [Node.js](https://nodejs.org/) v16+ to run.
 
-### `npm run eject`
+Install the dependencies and devDependencies and start the server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+cd whatsapp-frontend
+npm i
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Faizal Vasaya
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faizalvasaya/) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/FaizalVasaya)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Free Software, Hell Yeah!**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[reactjs]: https://reactjs.org/
+[axios]: https://axios-http.com/docs/intro
+[pusher]: https://pusher.com/
